@@ -47,7 +47,6 @@ class wordModel:
         self.analysisFile.close()
         sys.stdout = self.originalOut
 
-
     def operate(self):
         print("operating...")
         for row in self.rows:
